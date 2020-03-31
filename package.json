@@ -9,9 +9,9 @@
   "main": "dist/index.js",
   "types": "index.d.ts",
   "scripts": {
-    "build": "NODE_ENV=production rollup -c",
+    "build": "rollup -c",
     "build:watch": "rollup -cw",
-    "prepublishOnly": "NODE_ENV=production rollup -c",
+    "prepublishOnly": "rollup -c",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "lint": "eslint src/*.ts",

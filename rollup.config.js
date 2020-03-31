@@ -5,7 +5,7 @@ const replace = require('@rollup/plugin-replace');
 const typescript = require('@rollup/plugin-typescript');
 const { terser } = require('rollup-plugin-terser');
 
-const production = process.env.NODE_ENV === 'production';
+const production = true;
 
 module.exports = {
   input: 'src/index.ts',
